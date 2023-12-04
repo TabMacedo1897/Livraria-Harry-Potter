@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@600;700&family=Exo+2&family=Roboto&family=Young+Serif&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://i.ibb.co/V244Rt3/Untitled-Artwork-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  padding-top: 20px;
+  color: #fff;
+  font-family: 'Young Serif', serif;
+}
+
+.menu {
+  background-color: #222f5b !important;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.menu img {
+  width: 50px;
+  padding-bottom: 5px;
+}
+
+.carousel-inner .carousel-item img {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+
+.menu h2 {
+  font-family: 'Young Serif', serif;
+  color: white;
+  font-size: 26pt;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  background-color: white;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s, color 0.3s;
+  font-weight: 300;
+}
+
+.menu a:hover {
+  border-bottom: 2px solid #946b2d;
+  color: #946b2d;
+}
+
+.item2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  position: relative; /* Adicione esta linha */
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.image-container img {
+  width: 300px;
+  height: 300px;
+}
+
+.image-container img:hover {
+  transform: scale(1.1) rotate(-7deg);
+}
+
+.container-harry {
+ position: relative;
+ top: 10px;
+ left: 10px;
+}
+
+#timeturner {
+  rotate: -32deg;
+  position: absolute;
+  top: 137px;
+  left: 100px;
+  width: 340px;
+}
+
+#arrow {
+  width: 185px;
+  position: relative;
+  top: 280px;
+  left: 430px;
+}
+#watchme{
+  position: absolute;
+  bottom: 5px;
+  left: 650px;
+  font-family: 'Young Serif', serif;
+  color: white;
+  font-size: 32pt;
+  top: 50px;
+}
+#video-container{
+  display: flex;
+  position: relative;
+  top: 200px;
+  right: 300px;
+  bottom: -10px;
+  float: right;
+}
+footer p {
+  font-weight: bold;
+  margin: 0;
+}
+
+footer p::before {
+  content: "© ";
+  font-weight: normal;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Harry Potter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">Tábata Macedo</a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button type="submit" class="btn btn-dark">Search</button>
+          </form>
+        </div>
+      </nav>
+    <div class="container">     
+        <div class="item">
+            <h1>Livros mais vendidos</h1>
+            <br>
+            <!-- Carrosel Boostrap -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Slides -->
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <img src="./assets/livro1.jpg" alt="Livro 1" style="width: 30%; height: 30%;">
+                      </div>
+                    <div class="carousel-item">
+                        <img src="./assets/livro2.jpg" alt="Livro 2" style="width: 30%; height: 30%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/livro3.jpg" alt="Livro 3" style="width: 30%; height: 30%;">
+                    </div>
+                </div>
+                <!-- Controles do carrosel-->
+               <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+               </a> 
+               <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+               </a> 
+            </div>
+        </div>
+        <div class="item2">
+            <div class="image-container">
+                <a><img src="./assets/casa1.png" alt="Grifinoria"></a>
+            </div>
+            <div class="image-container">
+                <a><img src="./assets/casa2.png" alt="Grifinoria"></a>
+            </div>
+            <div class="image-container">
+                <a><img src="./assets/casa3.png" alt="Lufa lufa"></a>
+            </div>
+            <div class="image-container">
+                <a><img src="./assets/casa4.png" alt="Corvinal"></a>
+            </div>
+        </div>     
+    </div>
+    <!-- adicionar com o Gu -->
+    <div class="container-harry">
+      <a target="_blank" href="https://www.amazon.com/Noble-Collection-Potter-Hermiones-Turner/dp/B000BVYQAI">
+        <img id="timeturner" src="https://i.ibb.co/WD1Z1mW/timeturner2.png" alt="Time Turner"></a>
+        <img src="https://i.ibb.co/gr9WYkR/Untitled-Artwork-9.png"
+         alt="arrow" id="arrow">
+         <h1 id="watchme">
+          Watch me!
+         </h1>
+        <div id="video-container">
+          <iframe width="800" height="400" id="video" src="https://www.youtube.com/embed/Mg1A7fB9nrk" title="Harry Potter Time Travel Scene" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <footer>
+          <p>Desenvolvida por Tábata Macedo</p>
+        </footer>
+    </div>
+</body>
+</html>
